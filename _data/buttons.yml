@@ -1,2 +1,4 @@
-- curriculum: Curriculum
-  projects: Projects
+- name: Curriculum
+  url: "/curriculum.html"
+- name: Projects
+  url: "/projects.html"
