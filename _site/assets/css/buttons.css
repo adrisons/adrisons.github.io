@@ -1,0 +1,52 @@
+
+
+.buttons ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  visibility: hidden;
+  animation: makeVisible 0.6s ease-in 6s both;
+}
+
+.buttons ul li {
+  flex-grow: 1;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+}
+.buttons ul li label {
+  font-weight: bold;
+  animation: text-blur-out 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 6s reverse;
+}
+
+.buttons ul li:hover {
+  background-color: white;
+  color: black;
+}
+
+@keyframes makeVisible {
+  to {
+    visibility: visible;
+  }
+}
+
+/**
+   * ----------------------------------------
+   * animation text-blur-out
+   * ----------------------------------------
+   */
+@keyframes text-blur-out {
+  0% {
+    filter: blur(0.01);
+  }
+  100% {
+    filter: blur(12px) opacity(0%);
+  }
+}
