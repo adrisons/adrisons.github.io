@@ -1,0 +1,46 @@
+h1 {
+  position: relative;
+  float: left;
+  color: white;
+  width: 100%;
+}
+
+h2 {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+body {
+  position: relative;
+  float: left;
+  background-color: black;
+  color: white;
+  padding: 2em;
+}
+
+.personal {
+  position: relative;
+  float: left;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding-inline-start: 0;
+}
+.personal li {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-bottom: 5px;
+}
+.personal i {
+  position: relative;
+  float: left;
+  width: 1.2em;
+  text-align: center;
+}
+.personal .value {
+  padding-left: 10px;
+  text-decoration: none;
+  color: white;
+}
