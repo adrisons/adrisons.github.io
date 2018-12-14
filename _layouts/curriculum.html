@@ -3,9 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <title>{{ page.title }}</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/curriculum-favicon.ico">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/curriculum-favicon.ico"
+    />
     <link rel="stylesheet" href="/assets/css/styles.css" />
     <link rel="stylesheet" href="/assets/css/curriculum.css" />
+    <link rel="stylesheet" href="/assets/css/personal.css" />
+    <link rel="stylesheet" href="/assets/css/career-summary.css" />
+    <link rel="stylesheet" href="/assets/css/experience.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
@@ -16,24 +23,11 @@
   <body>
     {% assign item = site.data.curriculum %}
     <h1>{{ item.name | upcase }}</h1>
-    <ul class="personal">
-      <li>
-        <i class="fas fa-map-marker-alt"></i>
-        <label class="value">{{ item.location }}</label>
-      </li>
-      <li>
-        <i class="fas fa-envelope"></i>
-        <label class="value">{{ item.email }}</label>
-      </li>
-      <li>
-        <i class="fab fa-github"></i>
-        <a class="value" href="{{ item.github_link }}">{{
-          item.github_name
-        }}</a>
-      </li>
-    </ul>
+    {% include personal.html %} 
+    {% assign item = site.data.curriculum %}
     <h2>{{ item.career_summary | upcase }}</h2>
     {% include career-summary.html %} 
+    {% assign item = site.data.curriculum %}
     <h2>{{ item.experience | upcase }}</h2>
     {% include experience.html %}
   </body>

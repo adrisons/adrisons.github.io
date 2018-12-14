@@ -1,0 +1,18 @@
+<div class="experience">
+  <ul class="timeline">
+    {% for item in site.data.experience %}
+    <li class="timeline-item">
+      <div class="header">
+        <div class="title">
+          <h3 class="position-title">{{ item.position_title }}</h3>
+          <a class="company-name" href="{{ item.company_url }}">{{
+            item.company_name
+          }}</a>
+        </div>
+        <div class="position-time">{{ item.time }}</div>
+      </div>
+      <div class="description text">{{ item.description }}</div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

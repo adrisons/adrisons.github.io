@@ -1,0 +1,39 @@
+.personal {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: flex;
+  align-content: center;
+}
+
+.personal ul li {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-bottom: 5px;
+  display: flex;
+  align-content: center;
+}
+.personal ul i {
+  position: relative;
+  float: left;
+  width: 1.2em;
+  text-align: center;
+}
+.personal .value {
+  padding-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+.personal a {
+  display: flex;
+  align-content: center;
+  color: white;
+  text-decoration: none;
+}
+.personal a:hover {
+  text-decoration: underline;
+}
+.personal a > * {
+  cursor: pointer;
+}

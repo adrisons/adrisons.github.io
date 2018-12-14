@@ -1,0 +1,9 @@
+location: A Coruña, Galicia, España
+email: adrian.pereira.guerra@gmail.com
+social:
+  - link: https://github.com/adrisons
+    name: Github
+    icon: fab fa-github
+  - link: https://www.linkedin.com/in/adrian-pereira-guerra/
+    name: LinkedIn
+    icon: fab fa-linkedin
