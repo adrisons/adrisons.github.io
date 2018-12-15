@@ -2,6 +2,7 @@
   <ul class="timeline">
     {% for item in site.data.experience %}
     <li class="timeline-item">
+      <!-- HEADER -->
       <div class="header">
         <div class="title">
           <h3 class="position-title">{{ item.position_title }}</h3>
@@ -11,7 +12,29 @@
         </div>
         <div class="position-time">{{ item.time }}</div>
       </div>
+      <!-- DESRIPTION -->
       <div class="description text">{{ item.description }}</div>
+      <!-- ACHIEVEMENTS -->
+      <div class="achievements">
+        <h4>{{ item.achievements.title }}</h4>
+        <p class="description">{{ item.achievements.description }}</p>
+        <ul class="list">
+          {% for achievement in item.achievements.list %}
+          <li>{{ achievement }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <!-- TECHNOLOGIES -->
+      <div class="technologies">
+        <h4>{{ item.technologies.title }}</h4>
+        <ul>
+          {% for technology in item.technologies.list %}
+          <li>
+            {{technology}}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
     </li>
     {% endfor %}
   </ul>

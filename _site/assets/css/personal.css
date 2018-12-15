@@ -12,18 +12,23 @@
   width: 100%;
   padding-bottom: 5px;
   display: flex;
-  align-content: center;
 }
 .personal ul i {
   position: relative;
   float: left;
   width: 1.2em;
   text-align: center;
+  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 .personal .value {
   padding-left: 10px;
   text-decoration: none;
   color: white;
+  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 .personal a {
   display: flex;

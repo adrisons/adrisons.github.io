@@ -2,25 +2,55 @@
   company_name: Imatia
   company_utl: https://www.imatia.com/es/
   time: 2016 Apr - now
-  description: "um sociis natoque penatibus et magnis dis parturient
-montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
-justo, fringilla vel, aliquet nec, vulputate eget"
+  description: "It is a consulting company. My labor was to develop customer service software for a large retail company"
+  achievements:
+    title: Achievements
+    description: I am very proud of how I have grown personally and professionally in this company, of the good relationship with my team and of all the things I have learned here
+    list:
+      - one
+      - Ability to work autonomously
+  technologies:
+    title: Technologies used
+    list:
+      - Angular
+      - Javascript 
+      - Typescript
+      - HTML
+      - CSS 
+      - SASS
+      - Node.js
 
-- position_title: Parallel software developer intern
+      - Java
+      - Spring
+      - Hibernate
+      - SQL
+      - MongoDB
+
+- position_title: Parallel software engineer intern
   company_name: Appentra
   company_url: https://www.appentra.com/
   time: 2015 Oct - 2016 Feb
-  description: "um sociis natoque penatibus et magnis dis parturient
-montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
-justo, fringilla vel, aliquet nec, vulputate eget"
+  description: "When I was in the internship, Appentra was a start up who worked on making the code parallelization easier by building software that automates the insertion of openmp directives.
+  Among the tasks I did are: the study of mathematical algorithms for parallelism, 
+  improvement of some Python scripts for the generation of C code, 
+  and data treatment using Google Apps Script
+  "
+  achievements:
+    title: Achievements
+    description: 
+    list: 
+      - Analysis of different parallelization approaches for the Cholesky decomposition algorithm
+      - Learning Python and making minor changes to the company product
+      - Using Google Apps Script for importing JSON data into Google Sheets and generate charts
+      - Use of Scrum methodology for software development
+
+  technologies:
+    title: Technologies used
+    list:
+      - Python
+      - C
+      - OpenMP
+      - Google Apps Script
 
 - position_title: Oracle Technologies intern
   company_name: Quistor

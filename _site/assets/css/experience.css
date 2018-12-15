@@ -2,6 +2,9 @@
   position: relative;
   float: left;
 }
+
+/* TIMELINE */
+/* ============================== */
 .timeline {
   position: relative;
   float: left;
@@ -26,7 +29,7 @@
   padding-bottom: 3em;
 }
 .timeline-item:last-child {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 .timeline-item::before {
   content: "";
@@ -36,7 +39,7 @@
   top: 3px;
   width: 15px;
   height: 15px;
-  border: 4px solid #58677c;
+  border: 4px solid lightslategrey;
   background: white;
   border-radius: 50%;
 }
@@ -56,7 +59,7 @@
   margin-top: 0;
 }
 .timeline-item .header .title .company-name {
-  color: #58677c;
+  color: lightslategrey;
   font-size: 0.875rem;
   font-weight: 500;
   margin-left: auto;
@@ -67,6 +70,38 @@
   color: #aab4c3;
 }
 
-/*  */
-/*  */
-/*  */
+/* ACHIEVEMENTS */
+/* ============================== */
+.achievements {
+  position: relative;
+  float: left;
+}
+.achievements .description {
+  margin-bottom: 1rem;
+}
+.achievements .list {
+  padding-inline-start: 3em;
+  list-style-type: circle;
+}
+
+/* TECHNOLOGIES */
+/* ============================== */
+.technologies {
+  position: relative;
+  float: left;
+}
+.technologies ul {
+  position: relative;
+  float: left;
+}
+.technologies ul li {
+  position: relative;
+  float: left;
+  color: #fff;
+  background-color: #434e5e;
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
