@@ -40,7 +40,7 @@
   width: 15px;
   height: 15px;
   border: 4px solid #434e5e;
-  background: #F8F8FF;
+  background: #41c7c7;
   border-radius: 50%;
 }
 .timeline-item .header {
@@ -68,7 +68,7 @@
 
 .timeline-item .position-time {
   font-size: 0.875rem;
-  color: #aab4c3;
+  color: #41c7c7;
 }
 
 .timeline-item .description {
