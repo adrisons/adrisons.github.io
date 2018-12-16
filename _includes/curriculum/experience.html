@@ -1,6 +1,6 @@
 <div class="experience">
   <ul class="timeline">
-    {% for item in site.data.experience %}
+    {% for item in site.data.curriculum.experience %}
     <li class="timeline-item">
       <!-- HEADER -->
       <div class="header">
@@ -13,12 +13,12 @@
         <div class="position-time">{{ item.time }}</div>
       </div>
       <!-- DESRIPTION -->
-      <div class="description text">{{ item.description }}</div>
+      <span class="description ">{{ item.description }}</span>
       <!-- ACHIEVEMENTS -->
       <div class="achievements">
-        <h4>{{ item.achievements.title }}</h4>
-        <p class="description">{{ item.achievements.description }}</p>
-        <ul class="list">
+        <h4 class="title">{{ item.achievements.title }}</h4>
+        <span class="description ">{{ item.achievements.description }}</span>
+        <ul>
           {% for achievement in item.achievements.list %}
           <li>{{ achievement }}</li>
           {% endfor %}

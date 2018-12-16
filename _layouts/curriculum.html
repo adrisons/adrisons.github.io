@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
+    <meta name="viewport"
+    charset="utf-8"
+    content="initial-scale=1.0"/>
     <title>{{ page.title }}</title>
     <link
       rel="icon"
@@ -19,16 +21,39 @@
       integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
       crossorigin="anonymous"
     />
+    <script>
+      var print = 0;
+      function changeColor() {
+        if (print) {
+          document.body.style.background = "#000000";
+          document.body.style.color = "#F8F8FF";
+        } else {
+          document.body.style.background = "#F8F8FF";
+          document.body.style.color = "#000000";
+        }
+        print = !print;
+      }
+    </script>
   </head>
-  <body>
-    {% assign item = site.data.curriculum %}
+  <body class="curriculum">
+    <a class="print" onclick="changeColor()"> <i class="fas fa-print"></i> </a>
+    {% assign item = site.data.curriculum.curriculum %}
     <h1>{{ item.name | upcase }}</h1>
-    {% include personal.html %} 
-    {% assign item = site.data.curriculum %}
+    <!-- PERSONAL -->
+    {% include curriculum/personal.html %} {% assign item =
+    site.data.curriculum.curriculum %}
+    <!-- CAREER SUMMARY -->
     <h2>{{ item.career_summary | upcase }}</h2>
-    {% include career-summary.html %} 
-    {% assign item = site.data.curriculum %}
+    {% include curriculum/career-summary.html %} {% assign item =
+    site.data.curriculum.curriculum %}
+    <!-- EXPERIENCE -->
     <h2>{{ item.experience | upcase }}</h2>
-    {% include experience.html %}
+    {% include curriculum/experience.html %}
+    <!-- EDUCATION -->
+    {% include curriculum/education.html %}
+    <!-- LANGUAGES -->
+    {% include curriculum/languages.html %}
+    <!-- INTERESTS -->
+    {% include curriculum/interests.html %}
   </body>
 </html>

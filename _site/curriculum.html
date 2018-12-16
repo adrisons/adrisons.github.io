@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
+    <meta name="viewport"
+    charset="utf-8"
+    content="initial-scale=1.0"/>
     <title>Curriculum</title>
     <link
       rel="icon"
@@ -19,10 +21,25 @@
       integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
       crossorigin="anonymous"
     />
+    <script>
+      var print = 0;
+      function changeColor() {
+        if (print) {
+          document.body.style.background = "#000000";
+          document.body.style.color = "#F8F8FF";
+        } else {
+          document.body.style.background = "#F8F8FF";
+          document.body.style.color = "#000000";
+        }
+        print = !print;
+      }
+    </script>
   </head>
-  <body>
+  <body class="curriculum">
+    <a class="print" onclick="changeColor()"> <i class="fas fa-print"></i> </a>
     
     <h1>ADRIAN PEREIRA GUERRA</h1>
+    <!-- PERSONAL -->
     
 
 <div class="personal">
@@ -53,12 +70,12 @@
   </ul>
 </div>
  
-    
+    <!-- CAREER SUMMARY -->
     <h2>CAREER SUMMARY</h2>
     
-<div class="text summary">I am an active, creative person who likes to learn and discover new things. I organize my time to make the most of it, I have many hobbies and I try new ones often I enjoy doing my work, I like to be aware on the latest advances of the sector and I want to direct my career towards the frontend design, for being a more creative part.I am cheerful and positive, with ease to integrate people and wanting to learn everything.</div>
+<div class="summary">I am an active, creative person who likes to learn and discover new things. I organize my time to make the most of it, I have many hobbies and I try new ones often I enjoy doing my work, I like to be aware on the latest advances of the sector and I want to direct my career towards the frontend design, for being a more creative part.I am cheerful and positive, with ease to integrate people and wanting to learn everything.</div>
  
-    
+    <!-- EXPERIENCE -->
     <h2>EXPERIENCE</h2>
     <div class="experience">
   <ul class="timeline">
@@ -73,12 +90,12 @@
         <div class="position-time">2016 Apr - now</div>
       </div>
       <!-- DESRIPTION -->
-      <div class="description text">It is a consulting company. My labor was to develop customer service software for a large retail company</div>
+      <span class="description ">It is a consulting company. My labor was to develop customer service software for a large retail company</span>
       <!-- ACHIEVEMENTS -->
       <div class="achievements">
-        <h4>Achievements</h4>
-        <p class="description">I am very proud of how I have grown personally and professionally in this company, of the good relationship with my team and of all the things I have learned here</p>
-        <ul class="list">
+        <h4 class="title">Achievements</h4>
+        <span class="description ">I am very proud of how I have grown personally and professionally in this company, of the good relationship with my team and of all the things I have learned here</span>
+        <ul>
           
           <li>one</li>
           
@@ -153,12 +170,12 @@
         <div class="position-time">2015 Oct - 2016 Feb</div>
       </div>
       <!-- DESRIPTION -->
-      <div class="description text">When I was in the internship, Appentra was a start up who worked on making the code parallelization easier by building software that automates the insertion of openmp directives. Among the tasks I did are: the study of mathematical algorithms for parallelism, improvement of some Python scripts for the generation of C code, and data treatment using Google Apps Script </div>
+      <span class="description ">When I was in the internship, Appentra was a start up who worked on making the code parallelization easier by building software that automates the insertion of openmp directives. Among the tasks I did are: the study of mathematical algorithms for parallelism, improvement of some Python scripts for the generation of C code, and data treatment using Google Apps Script </span>
       <!-- ACHIEVEMENTS -->
       <div class="achievements">
-        <h4>Achievements</h4>
-        <p class="description"></p>
-        <ul class="list">
+        <h4 class="title">Achievements</h4>
+        <span class="description "></span>
+        <ul>
           
           <li>Analysis of different parallelization approaches for the Cholesky decomposition algorithm</li>
           
@@ -205,12 +222,12 @@
         <div class="position-time">2014 Nov - 2015 Mar</div>
       </div>
       <!-- DESRIPTION -->
-      <div class="description text">um sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</div>
+      <span class="description ">um sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</span>
       <!-- ACHIEVEMENTS -->
       <div class="achievements">
-        <h4></h4>
-        <p class="description"></p>
-        <ul class="list">
+        <h4 class="title"></h4>
+        <span class="description "></span>
+        <ul>
           
         </ul>
       </div>
@@ -226,5 +243,11 @@
   </ul>
 </div>
 
+    <!-- EDUCATION -->
+    
+    <!-- LANGUAGES -->
+    
+    <!-- INTERESTS -->
+    
   </body>
 </html>

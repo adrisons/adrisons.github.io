@@ -1,21 +1,18 @@
-h1 {
+.print {
   position: relative;
-  float: left;
-  color: white;
-  width: 100%;
+  float: right;
+}
+.print i {
+  cursor: pointer;
+}
+.curriculum {
+  padding: 5em;
+  width: auto;
 }
 
-h2 {
-  position: relative;
-  float: left;
-  width: 100%;
-}
-
-body {
-  position: relative;
-  float: left;
-  background-color: black;
-  color: white;
-  padding: 2em;
-}
-
+@media only screen and (max-width: 600px) {
+    .curriculum {
+      padding: 1em;
+    }
+  }
+  
