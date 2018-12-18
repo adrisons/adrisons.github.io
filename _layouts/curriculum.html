@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/assets/css/personal.css" />
     <link rel="stylesheet" href="/assets/css/career-summary.css" />
     <link rel="stylesheet" href="/assets/css/experience.css" />
+    <link rel="stylesheet" href="/assets/css/education.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
@@ -40,20 +41,26 @@
     {% assign item = site.data.curriculum.curriculum %}
     <h1>{{ item.name | upcase }}</h1>
     <!-- PERSONAL -->
-    {% include curriculum/personal.html %} {% assign item =
-    site.data.curriculum.curriculum %}
+    {% include curriculum/personal.html %} 
     <!-- CAREER SUMMARY -->
+    {% assign item = site.data.curriculum.curriculum %}
     <h2>{{ item.career_summary | upcase }}</h2>
-    {% include curriculum/career-summary.html %} {% assign item =
-    site.data.curriculum.curriculum %}
+    {% include curriculum/career-summary.html %} 
     <!-- EXPERIENCE -->
+    {% assign item = site.data.curriculum.curriculum %}
     <h2>{{ item.experience | upcase }}</h2>
     {% include curriculum/experience.html %}
     <!-- EDUCATION -->
+    {% assign item = site.data.curriculum.curriculum %}
+    <h2>{{ item.education | upcase }}</h2>
     {% include curriculum/education.html %}
     <!-- LANGUAGES -->
+    {% assign item = site.data.curriculum.curriculum %}
+    <h2>{{ item.languages | upcase }}</h2>
     {% include curriculum/languages.html %}
     <!-- INTERESTS -->
+    {% assign item = site.data.curriculum.curriculum %}
+    <h2>{{ item.interests | upcase }}</h2>
     {% include curriculum/interests.html %}
   </body>
 </html>

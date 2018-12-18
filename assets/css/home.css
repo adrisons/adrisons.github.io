@@ -66,7 +66,7 @@
   align-items: center;
   flex-direction: column;
   visibility: hidden;
-  animation: makeVisible 0.6s ease-in 6s both;
+  animation: makeVisible 0.6s ease-in 2s both;
 }
 
 .buttons ul li {
@@ -88,7 +88,7 @@
   font-weight: bold;
   color: inherit;
   text-align: center;
-  animation: text-blur-out 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 6s reverse;
+  animation: text-blur-out 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 2s reverse;
 }
 
 .buttons ul li a label {
