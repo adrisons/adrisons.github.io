@@ -1,66 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport"
-    charset="utf-8"
-    content="initial-scale=1.0"/>
-    <title>{{ page.title }}</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="/assets/images/curriculum-favicon.ico"
-    />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
-    <link rel="stylesheet" href="/assets/css/curriculum.css" />
-    <link rel="stylesheet" href="/assets/css/personal.css" />
-    <link rel="stylesheet" href="/assets/css/career-summary.css" />
-    <link rel="stylesheet" href="/assets/css/experience.css" />
-    <link rel="stylesheet" href="/assets/css/education.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
-      crossorigin="anonymous"
-    />
-    <script>
-      var print = 0;
-      function changeColor() {
-        if (print) {
-          document.body.style.background = "#000000";
-          document.body.style.color = "#F8F8FF";
-        } else {
-          document.body.style.background = "#F8F8FF";
-          document.body.style.color = "#000000";
-        }
-        print = !print;
-      }
-    </script>
-  </head>
-  <body class="curriculum">
-    <a class="print" onclick="changeColor()"> <i class="fas fa-print"></i> </a>
-    {% assign item = site.data.curriculum.curriculum %}
-    <h1>{{ item.name | upcase }}</h1>
-    <!-- PERSONAL -->
-    {% include curriculum/personal.html %} 
-    <!-- CAREER SUMMARY -->
-    {% assign item = site.data.curriculum.curriculum %}
-    <h2>{{ item.career_summary | upcase }}</h2>
-    {% include curriculum/career-summary.html %} 
-    <!-- EXPERIENCE -->
-    {% assign item = site.data.curriculum.curriculum %}
-    <h2>{{ item.experience | upcase }}</h2>
-    {% include curriculum/experience.html %}
-    <!-- EDUCATION -->
-    {% assign item = site.data.curriculum.curriculum %}
-    <h2>{{ item.education | upcase }}</h2>
-    {% include curriculum/education.html %}
-    <!-- LANGUAGES -->
-    {% assign item = site.data.curriculum.curriculum %}
-    <h2>{{ item.languages | upcase }}</h2>
-    {% include curriculum/languages.html %}
-    <!-- INTERESTS -->
-    {% assign item = site.data.curriculum.curriculum %}
-    <h2>{{ item.interests | upcase }}</h2>
-    {% include curriculum/interests.html %}
-  </body>
+    <head>
+        <meta name="viewport" charset="utf-8" content="initial-scale=1.0" />
+        <title>{{ page.title }}</title>
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="/assets/images/curriculum-favicon.ico"
+        />
+        <link rel="stylesheet" href="/assets/css/styles.css" />
+        <link rel="stylesheet" href="/assets/css/curriculum.css" />
+        <link rel="stylesheet" href="/assets/css/personal.css" />
+        <link rel="stylesheet" href="/assets/css/career-summary.css" />
+        <link rel="stylesheet" href="/assets/css/experience.css" />
+        <link rel="stylesheet" href="/assets/css/education.css" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+            integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+            crossorigin="anonymous"
+        />
+        <script>
+            var print = 0;
+            function changeColor() {
+                if (print) {
+                    document.body.style.background = '#000000';
+                    document.body.style.color = '#F8F8FF';
+                } else {
+                    document.body.style.background = '#F8F8FF';
+                    document.body.style.color = '#000000';
+                }
+                print = !print;
+            }
+        </script>
+    </head>
+    <body class="curriculum">
+        <a class="print" onclick="changeColor()">
+            <i class="fas fa-print"></i>
+        </a>
+        {% assign item = site.data.curriculum.curriculum %}
+        <h1>{{ item.name | upcase }}</h1>
+        <!-- PERSONAL -->
+        {% include curriculum/personal.html %}
+        <!-- CAREER SUMMARY -->
+        {% assign item = site.data.curriculum.curriculum %}
+        <h2>{{ item.career_summary | upcase }}</h2>
+        {% include curriculum/career-summary.html %}
+        <!-- EXPERIENCE -->
+        {% assign item = site.data.curriculum.curriculum %}
+        <h2>{{ item.experience | upcase }}</h2>
+        {% include curriculum/experience.html %}
+        <!-- EDUCATION -->
+        {% assign item = site.data.curriculum.curriculum %}
+        <h2>{{ item.education | upcase }}</h2>
+        {% include curriculum/education.html %}
+        <!-- LANGUAGES -->
+        {% assign item = site.data.curriculum.curriculum %}
+        <h2>{{ item.languages | upcase }}</h2>
+        {% include curriculum/languages.html %}
+        <!-- INTERESTS -->
+        {% assign item = site.data.curriculum.curriculum %}
+        <h2>{{ item.interests | upcase }}</h2>
+        {% include curriculum/interests.html %}
+    </body>
 </html>
