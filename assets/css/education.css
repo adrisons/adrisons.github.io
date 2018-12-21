@@ -1,21 +1,8 @@
 .education {
     position: relative;
     float: left;
-}
-.education ul {
-    position: relative;
-    float: left;
     width: 100%;
-    margin-top: 0.25em;
 }
 .education ul li {
-    position: relative;
-    float: left;
-    color: #fff;
-    background-color: #434e5e;
-    padding-right: 0.6em;
-    padding-left: 0.6em;
-    border-radius: 10rem;
-    margin-right: 1em;
-    margin-bottom: 0.5em;
+    padding-bottom: 0;
 }

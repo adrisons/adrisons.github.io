@@ -1,120 +1,75 @@
 .header {
-  position: relative;
-  float: left;
-  width: 100%;
-  height: 75vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .buttons {
-  position: relative;
-  float: left;
-  width: 100%;
-  height: 25vh;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 25vh;
 }
 
 /* =============================== */
 /* HEADER */
 /* =============================== */
 
-.typewriter > * {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  /* white-space: nowrap; Keeps the content on a single line */
-  text-align: center;
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.2em; /* Adjust as needed */
-  /* animation: typing 2.5s steps(30, end), blink-caret 1s step-end infinite; */
+.header > h1,
+.header > h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    text-align: center;
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.2em; /* Adjust as needed */
 }
 
-.typewriter > h2 {
-  /* animation-delay: 3s;
-  visibility: hidden; */
-}
-
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from,
-  to {
-    visibility: visible;
-  }
-}
 
 /* =============================== */
 /* BUTTONS */
 /* =============================== */
 
 .buttons ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  height: inherit;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  visibility: hidden;
-  animation: makeVisible 0.6s ease-in 2s both;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .buttons ul li {
-  flex-grow: 1;
-  height: inherit;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
+    flex-grow: 1;
+    height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 .buttons ul li a {
-  text-decoration: none;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  color: inherit;
-  text-align: center;
-  animation: text-blur-out 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 2s reverse;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: inherit;
+    text-align: center;
+    animation: text-blur-out 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 2s reverse;
 }
 
 .buttons ul li a label {
-  cursor: pointer;
+    cursor: pointer;
 }
 .buttons ul li:hover {
-  background-color: white;
-  color: black;
-}
-
-@keyframes makeVisible {
-  to {
-    visibility: visible;
-  }
-}
-
-/**
-   * ----------------------------------------
-   * animation text-blur-out
-   * ----------------------------------------
-   */
-@keyframes text-blur-out {
-  0% {
-    filter: blur(0.01);
-  }
-  100% {
-    filter: blur(12px) opacity(0%);
-  }
+    background-color: white;
+    color: black;
 }

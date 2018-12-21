@@ -1,2 +1,24 @@
-- name: JSCamp 2018
-- name: Angular 7 (Advanced)
+# - name: JSCamp 2018
+# - name: Angular 7 (Advanced)
+
+
+
+- title: Angular 7 (advanced)
+  where: Academia Binaria
+  where_utl: https://academia-binaria.com/
+  time: December 2018
+
+- title: JS Camp
+  where: Barcelona
+  where_utl: https://jscamp.tech/
+  time: July 2018
+
+- title: Angular 2 with TypeScript and Observables
+  where: Academia Binaria
+  where_utl: https://academia-binaria.com/
+  time: 2016
+
+- title: Software engineer
+  where: University of A Coruña
+  where_utl: https://www.udc.es/
+  time: 2009 - 2015

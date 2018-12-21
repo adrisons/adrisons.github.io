@@ -5,17 +5,17 @@
       <!-- HEADER -->
       <div class="header">
         <div class="title">
-          <h3 class="position-title">{{ item.position_title }}</h3>
-          <a class="company-name" href="{{ item.company_url }}">{{
+          <h3 class="main">{{ item.position_title }}</h3>
+          <a class="side" href="{{ item.company_url }}">{{
             item.company_name
           }}</a>
         </div>
-        <div class="position-time">{{ item.time }}</div>
+        <div class="time">{{ item.time }}</div>
       </div>
       <!-- DESRIPTION -->
-      <span class="description ">{{ item.description }}</span>
+      <span class="description">{{ item.description }}</span>
       <!-- ACHIEVEMENTS -->
-      <div class="achievements">
+      <div class="item-block">
         <h4 class="title">{{ item.achievements.title }}</h4>
         <span class="description ">{{ item.achievements.description }}</span>
         <ul>
@@ -25,7 +25,7 @@
         </ul>
       </div>
       <!-- TECHNOLOGIES -->
-      <div class="technologies">
+      <div class="cards">
         <h4>{{ item.technologies.title }}</h4>
         <ul>
           {% for technology in item.technologies.list %}
