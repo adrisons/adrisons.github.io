@@ -51,7 +51,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--main-bg-light);
 }
 .buttons ul li a {
     text-decoration: none;
@@ -61,15 +61,13 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    color: inherit;
     text-align: center;
-    animation: text-blur-out 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 2s reverse;
 }
 
 .buttons ul li a label {
     cursor: pointer;
 }
-.buttons ul li:hover {
-    background-color: white;
-    color: black;
+.buttons ul li a:hover {
+    background-color: var(--main-bg-light);
+    color: var(--main-bg-dark);
 }
