@@ -55,13 +55,8 @@ li {
     position: relative;
     float: left;
 }
-a {
-    text-decoration: none;
-    color: inherit;
-}
 a > * {
     cursor: pointer;
-    text-decoration: none;
 }
 a:hover {
     color: #41c7c7 !important;
@@ -130,7 +125,6 @@ a:hover {
     font-weight: 500;
     margin-left: auto;
     text-align: right;
-    text-decoration: none;
 }
 
 .timeline-item > .header > .time {

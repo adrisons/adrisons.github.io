@@ -12,9 +12,6 @@
         display: block;
     }
 }
-.personal > .social {
-    width: 105px;
-}
 
 .personal > ul li {
     position: relative;
@@ -41,10 +38,23 @@
     margin-left: 0;
     margin-right: 0;
 }
-.personal a {
+
+.personal > .contact a {
+  display: flex;
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* SOCIAL */
+.personal > .social {
+    width: 105px;
+}
+.personal > .social a {
     display: flex;
     align-content: center;
     color: inherit;
     text-decoration: none;
     margin-right: auto;
 }
+
