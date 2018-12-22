@@ -1,18 +1,17 @@
 .print {
-  position: relative;
-  float: right;
+    position: relative;
+    float: right;
 }
 .print i {
-  cursor: pointer;
+    cursor: pointer;
 }
 .curriculum {
-  padding: 5em;
-  width: auto;
+    padding: 5em;
+    width: auto;
 }
 
 @media only screen and (max-width: 600px) {
     .curriculum {
-      padding: 1em;
+        padding: 1em;
     }
-  }
-  
+}

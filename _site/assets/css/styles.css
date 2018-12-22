@@ -7,7 +7,7 @@ body {
     letter-spacing: 0.1em;
     line-height: 1.5;
     text-align: justify;
-    background-color: #212424;
+    background-color: hsl(180, 4%, 14%);
     color: #f8f8ff;
     margin: 0;
 }
@@ -54,6 +54,17 @@ ul {
 li {
     position: relative;
     float: left;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a > * {
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    color: #41c7c7 !important;
 }
 
 /* TIMELINE */
@@ -102,8 +113,10 @@ li {
     margin-bottom: 0.5em;
 }
 .timeline-item > .header > .title {
+    position: relative;
+    float: left;
+    width: 100%;
     display: flex;
-    align-items: center;
 }
 
 .timeline-item > .header > .title > .main {
@@ -116,6 +129,8 @@ li {
     font-size: 1rem;
     font-weight: 500;
     margin-left: auto;
+    text-align: right;
+    text-decoration: none;
 }
 
 .timeline-item > .header > .time {

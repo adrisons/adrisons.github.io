@@ -1,23 +1,28 @@
 {% assign item = site.data.curriculum.personal %}
 
 <div class="personal">
-  <ul class="contact">
-    <li>
-      <i class="fas fa-map-marker-alt"></i>
-      <label class="value">{{ item.location }}</label>
-    </li>
-    <li>
-      <i class="fas fa-envelope"></i>
-      <label class="value">{{ item.email }}</label>
-    </li>
-  </ul>
-  <ul class="social">
-    {% for s in item.social %}
-    <li>
-      <a href="{{ s.link }}">
-        <i class="{{s.icon}}"></i> <label class="value"> {{ s.name }}</label>
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+    <ul class="contact">
+        <li>
+            <a href="{{ item.location_url }}" target="_blank">
+                <i class="fas fa-map-marker-alt"></i>
+                <label class="value">{{ item.location }}</label>
+            </a>
+        </li>
+        <li>
+            <a href="mailto: {{ item.email }}">
+                <i class="fas fa-envelope"></i>
+                <label class="value">{{ item.email }}</label>
+            </a>
+        </li>
+    </ul>
+    <ul class="social">
+        {% for s in item.social %}
+        <li>
+            <a href="{{ s.link }}" target="_blank">
+                <i class="{{ s.icon }}"></i>
+                <label class="value"> {{ s.name }}</label>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 </div>

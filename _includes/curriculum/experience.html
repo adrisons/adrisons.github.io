@@ -1,41 +1,44 @@
 <div class="experience">
-  <ul class="timeline">
-    {% for item in site.data.curriculum.experience %}
-    <li class="timeline-item">
-      <!-- HEADER -->
-      <div class="header">
-        <div class="title">
-          <h3 class="main">{{ item.position_title }}</h3>
-          <a class="side" href="{{ item.company_url }}">{{
-            item.company_name
-          }}</a>
-        </div>
-        <div class="time">{{ item.time }}</div>
-      </div>
-      <!-- DESRIPTION -->
-      <span class="description">{{ item.description }}</span>
-      <!-- ACHIEVEMENTS -->
-      <div class="item-block">
-        <h4 class="title">{{ item.achievements.title }}</h4>
-        <span class="description ">{{ item.achievements.description }}</span>
-        <ul>
-          {% for achievement in item.achievements.list %}
-          <li>{{ achievement }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-      <!-- TECHNOLOGIES -->
-      <div class="cards">
-        <h4>{{ item.technologies.title }}</h4>
-        <ul>
-          {% for technology in item.technologies.list %}
-          <li>
-            {{technology}}
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
+    <ul class="timeline">
+        {% for item in site.data.curriculum.experience %}
+        <li class="timeline-item">
+            <!-- HEADER -->
+            <div class="header">
+                <div class="title">
+                    <h3 class="main">{{ item.position_title }}</h3>
+                    <a
+                        class="side"
+                        target="_blank"
+                        href="{{ item.company_url }}"
+                        >{{ item.company_name }}</a
+                    >
+                </div>
+                <div class="time">{{ item.time }}</div>
+            </div>
+            <!-- DESRIPTION -->
+            <span class="description">{{ item.description }}</span>
+            <!-- ACHIEVEMENTS -->
+            <div class="item-block">
+                <h4 class="title">{{ item.achievements.title }}</h4>
+                <span class="description ">{{
+                    item.achievements.description
+                }}</span>
+                <ul>
+                    {% for achievement in item.achievements.list %}
+                    <li>{{ achievement }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- TECHNOLOGIES -->
+            <div class="cards">
+                <h4>{{ item.technologies.title }}</h4>
+                <ul>
+                    {% for technology in item.technologies.list %}
+                    <li>{{ technology }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
 </div>

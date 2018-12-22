@@ -3,22 +3,22 @@
 
 
 
-- title: Angular 7 (advanced)
+- title: Angular 7 - Advanced development of business applications
   where: Academia Binaria
-  where_utl: https://academia-binaria.com/
+  where_url: https://academia-binaria.com/
   time: December 2018
 
 - title: JS Camp
   where: Barcelona
-  where_utl: https://jscamp.tech/
+  where_url: https://jscamp.tech/
   time: July 2018
 
 - title: Angular 2 with TypeScript and Observables
   where: Academia Binaria
-  where_utl: https://academia-binaria.com/
+  where_url: https://academia-binaria.com/
   time: 2016
 
-- title: Software engineer
+- title: Software engineering
   where: University of A Coruña
-  where_utl: https://www.udc.es/
+  where_url: https://www.udc.es/
   time: 2009 - 2015

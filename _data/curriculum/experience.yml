@@ -1,6 +1,6 @@
 - position_title: Fullstack web developer
   company_name: Imatia
-  company_utl: https://www.imatia.com/es/
+  company_url: https://www.imatia.com/
   time: 2016 Apr - now
   description: "It is a consulting company. My labor was to develop customer service software for a large retail company"
   achievements:
@@ -30,19 +30,21 @@
   company_name: Appentra
   company_url: https://www.appentra.com/
   time: 2015 Oct - 2016 Feb
-  description: "When I was in the internship, Appentra was a start up who worked on making the code parallelization easier by building software that automates the insertion of openmp directives.
-  Among the tasks I did are: the study of mathematical algorithms for parallelism, 
-  improvement of some Python scripts for the generation of C code, 
-  and data treatment using Google Apps Script
+  description: "
+  When I started this internship, Appentra was a start up who worked on making the code 
+  parallelization easier by building software that automates the insertion of openmp directives. 
+  Among the tasks I did are: the study of mathematical algorithms for their parallelization, 
+  improvement of some Python scripts for the generation of C code, and data treatment using 
+  Google Apps Script.
   "
   achievements:
     title: Achievements
     description: 
     list: 
-      - Analysis of different parallelization approaches for the Cholesky decomposition algorithm
-      - Learning Python and making minor changes to the company product
-      - Using Google Apps Script for importing JSON data into Google Sheets and generate charts
-      - Use of Scrum methodology for software development
+      - Analysis of different parallelization approaches for the Cholesky decomposition algorithm.
+      - Learning Python and making minor changes to the company product.
+      - Using Google Apps Script for importing JSON data into Google Sheets and generate charts.
+      - Use of Scrum methodology for software development.
 
   technologies:
     title: Technologies used
@@ -54,12 +56,9 @@
 
 - position_title: Oracle Technologies intern
   company_name: Quistor
-  company_url: https://www.quistor.com/es/
+  company_url: https://www.quistor.com/
   time: 2014 Nov - 2015 Mar
-  description: "um sociis natoque penatibus et magnis dis parturient
-montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
-justo, fringilla vel, aliquet nec, vulputate eget"
+  description: "During this internship, I did a lot of mechanical work using an internal application 
+  wich purpose was automate the extraction of information from client business websites.
+  I had the chance to write some Java code for that application and develop small additional capabilities.
+  Almost at the end of the internship I started an Oracle ADF training to migrate desktop applications to the web."
