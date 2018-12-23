@@ -1,7 +1,7 @@
 :root {
     --main-bg-dark: hsl(180, 4%, 14%);
     --main-bg-light: #f8f8ff;
-    --main-link-green: #41c7c7;
+    --main-green: #41c7c7;
 
     --card-dark: hsl(180, 4%, 25%);
     --card-light: hsl(240, 20%, 94%);
@@ -82,7 +82,7 @@ a > * {
     cursor: pointer;
 }
 a:hover {
-    color: var(--main-link-green);
+    color: var(--main-green);
 }
 
 /* TIMELINE */
@@ -121,7 +121,7 @@ a:hover {
     width: 15px;
     height: 15px;
     border: 7px solid var(--timeline-item-border);
-    background: var(--main-link-green);
+    background: var(--main-green);
     border-radius: 50%;
 }
 .timeline-item > .header {
@@ -151,12 +151,12 @@ a:hover {
     text-align: right;
 }
 .timeline-item > .header > .title > .side:hover {
-    color: var(--main-link-green);
+    color: var(--main-green);
 }
 
 .timeline-item > .header > .time {
     font-size: 0.875rem;
-    color: var(--main-link-green);
+    color: var(--main-green);
 }
 
 .timeline-item > .description {
@@ -180,13 +180,23 @@ a:hover {
     position: relative;
     float: left;
     padding-inline-start: 3em;
-    list-style-type: circle;
+    list-style: none;
 }
 
 .item-block > ul > li {
     position: relative;
     float: left;
     width: 100%;
+    padding-bottom: 0.2em;
+}
+
+.item-block > ul > li::before {
+    content: '\2022';
+    color: var(--main-green);
+    position: absolute;
+    left: -1em;
+    top: -5px;
+    font-size: 1.5em;
 }
 
 .cards {
