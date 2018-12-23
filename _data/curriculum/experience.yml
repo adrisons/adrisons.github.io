@@ -2,13 +2,20 @@
   company_name: Imatia
   company_url: https://www.imatia.com/
   time: 2016 Apr - now
-  description: "It is a consulting company. My labor was to develop customer service software for a large retail company"
+  description: "Imatia is a consulting company. My labor is to develop software to help customer service 
+  of a large retail company. My team and I have built several applications using different versions of
+  the Angular framework, following an agile philosophy and an architecture based on microservices."
   achievements:
     title: Achievements
-    description: I am very proud of how I have grown personally and professionally in this company, of the good relationship with my team and of all the things I have learned here
+    description: "I am very proud of how I have grown personally and professionally in this company, 
+    of the good relationship with my team and of all the things I have learned here."
     list:
       - Ability to work autonomously
-      - Agile development
+      - Continuous training in Angular 
+      - Acquired responsibility
+      - Use Git with an agile workflow
+      - Improvement of my communication skills to integrate with other teams
+
   technologies:
     title: Technologies used
     list:
@@ -31,8 +38,8 @@
   company_url: https://www.appentra.com/
   time: 2015 Oct - 2016 Feb
   description: "
-  When I started this internship, Appentra was a start up who worked on making the code 
-  parallelization easier by building software that automates the insertion of openmp directives. 
+  When I started this internship, Appentra was a start up who worked on making code 
+  parallelization easier by building software that automates the insertion of openMP directives. 
   Among the tasks I did are: the study of mathematical algorithms for their parallelization, 
   improvement of some Python scripts for the generation of C code, and data treatment using 
   Google Apps Script.
