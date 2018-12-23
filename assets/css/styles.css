@@ -11,6 +11,11 @@
     --timeline-color: var(--main-bg-light);
     --timeline-item-border: var(--main-bg-dark);
 }
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 body {
     position: relative;

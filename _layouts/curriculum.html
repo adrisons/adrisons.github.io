@@ -60,10 +60,13 @@
         </script>
     </head>
     <body class="curriculum">
-        <a class="back" href="/"> <i class="fas fa-chevron-left"></i> </a>
-        <a class="print" onclick="changeColor()">
-            <i class="fas fa-print"></i>
-        </a>
+        <div class="links">
+            <a class="back" href="/"> <i class="fas fa-chevron-left"></i> </a>
+            <a class="print" onclick="changeColor()">
+                <i class="fas fa-print"></i>
+            </a>
+        </div>
+
         {% assign item = site.data.curriculum.curriculum %}
         <h1>{{ item.name | upcase }}</h1>
         <!-- PERSONAL -->

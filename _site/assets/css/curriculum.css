@@ -1,13 +1,12 @@
-.print {
-    position: relative;
-    float: right;
+.links {
+    display: flex;
+    justify-content: space-between;
 }
-.print i {
-    cursor: pointer;
-}
+
 .curriculum {
     padding: 5em;
     width: auto;
+    max-width: 800px;
 }
 
 @media only screen and (max-width: 600px) {
