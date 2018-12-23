@@ -23,21 +23,44 @@
         <script>
             var print = 0;
             function changeColor() {
+                let root = document.documentElement;
+
                 if (print) {
-                    document.body.style.background = '#212424';
-                    document.body.style.color = '#F8F8FF';
+                    document.body.style.background = 'var(--main-bg-dark)';
+                    document.body.style.color = 'var(--main-bg-light)';
+                    root.style.setProperty('--card-color', 'var(--card-light)');
+                    root.style.setProperty('--card-bg', 'var(--card-dark)');
+
+                    root.style.setProperty(
+                        '--timeline-color',
+                        'var(--main-bg-light)'
+                    );
+
+                    root.style.setProperty(
+                        '--timeline-item-border',
+                        'var(--main-bg-dark)'
+                    );
                 } else {
-                    document.body.style.background = '#F8F8FF';
-                    document.body.style.color = '#212424';
+                    document.body.style.background = 'var(--main-bg-light)';
+                    document.body.style.color = 'var(--main-bg-dark)';
+                    root.style.setProperty('--card-color', 'var(--card-dark)');
+                    root.style.setProperty('--card-bg', 'var(--card-light)');
+
+                    root.style.setProperty(
+                        '--timeline-color',
+                        'var(--main-bg-dark)'
+                    );
+                    root.style.setProperty(
+                        '--timeline-item-border',
+                        'var(--main-bg-light)'
+                    );
                 }
                 print = !print;
             }
         </script>
     </head>
     <body class="curriculum">
-        <a class="back" href="/">
-            <i class="fas fa-chevron-left"></i>
-        </a>
+        <a class="back" href="/"> <i class="fas fa-chevron-left"></i> </a>
         <a class="print" onclick="changeColor()">
             <i class="fas fa-print"></i>
         </a>
