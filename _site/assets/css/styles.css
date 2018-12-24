@@ -224,7 +224,6 @@ a:hover {
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltip-text {
@@ -258,6 +257,4 @@ a:hover {
 .tooltip:hover .tooltip-text {
     visibility: visible;
     opacity: 1;
-
 }
-

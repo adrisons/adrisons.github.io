@@ -1,0 +1,9 @@
+<div class="interests cards">
+    <ul>
+        {% for interest in site.data.curriculum.interests %}
+        <li>
+            <label> {{ interest.name }} </label>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
