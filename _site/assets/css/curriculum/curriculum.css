@@ -1,0 +1,10 @@
+.curriculum {
+    padding: 5em;
+    max-width: 837px;
+}
+
+@media only screen and (max-width: 600px) {
+    .curriculum {
+        padding: 1em;
+    }
+}

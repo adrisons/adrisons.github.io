@@ -1,16 +1,10 @@
-.links {
-    display: flex;
-    justify-content: space-between;
-}
-
-.curriculum {
+.projects {
     padding: 5em;
-    width: auto;
     max-width: 837px;
 }
 
 @media only screen and (max-width: 600px) {
-    .curriculum {
+    .projects {
         padding: 1em;
     }
 }

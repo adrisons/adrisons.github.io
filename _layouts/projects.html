@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta
-      name="viewport"
-      charset="utf-8"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <title>{{ page.title }}</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="/assets/images/project-favicon.ico"
-    />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
-  </head>
-  <body>
-    <h1>Projects</h1>
-  </body>
+    <head>
+        <meta name="viewport" charset="utf-8" content="initial-scale=1.0" />
+        <title>{{ page.title }}</title>
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="/assets/images/project-favicon.ico"
+        />
+        <link rel="stylesheet" href="/assets/css/styles.css" />
+        <link rel="stylesheet" href="/assets/css/projects/projects.css" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+            integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body class="projects">
+        {% include top-links.html %} 
+        {% assign item = site.data.projects.projects %}
+        <h1>{{ item.title | upcase }}</h1>
+    </body>
 </html>

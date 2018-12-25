@@ -9,65 +9,30 @@
             href="/assets/images/curriculum-favicon.ico"
         />
         <link rel="stylesheet" href="/assets/css/styles.css" />
-        <link rel="stylesheet" href="/assets/css/curriculum.css" />
-        <link rel="stylesheet" href="/assets/css/personal.css" />
-        <link rel="stylesheet" href="/assets/css/career-summary.css" />
-        <link rel="stylesheet" href="/assets/css/experience.css" />
-        <link rel="stylesheet" href="/assets/css/education.css" />
-        <link rel="stylesheet" href="/assets/css/interests.css" />
+        <link rel="stylesheet" href="/assets/css/curriculum/curriculum.css" />
+        <link rel="stylesheet" href="/assets/css/curriculum/personal.css" />
+        <link
+            rel="stylesheet"
+            href="/assets/css/curriculum/career-summary.css"
+        />
+        <link rel="stylesheet" href="/assets/css/curriculum/experience.css" />
+        <link rel="stylesheet" href="/assets/css/curriculum/education.css" />
+        <link rel="stylesheet" href="/assets/css/curriculum/interests.css" />
         <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
             integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
             crossorigin="anonymous"
         />
-        <script>
-            var print = 0;
-            function changeColor() {
-                let root = document.documentElement;
-
-                if (print) {
-                    document.body.style.background = 'var(--main-bg-dark)';
-                    document.body.style.color = 'var(--main-bg-light)';
-                    root.style.setProperty('--card-color', 'var(--card-light)');
-                    root.style.setProperty('--card-bg', 'var(--card-dark)');
-
-                    root.style.setProperty(
-                        '--timeline-color',
-                        'var(--main-bg-light)'
-                    );
-
-                    root.style.setProperty(
-                        '--timeline-item-border',
-                        'var(--main-bg-dark)'
-                    );
-                } else {
-                    document.body.style.background = 'var(--main-bg-light)';
-                    document.body.style.color = 'var(--main-bg-dark)';
-                    root.style.setProperty('--card-color', 'var(--card-dark)');
-                    root.style.setProperty('--card-bg', 'var(--card-light)');
-
-                    root.style.setProperty(
-                        '--timeline-color',
-                        'var(--main-bg-dark)'
-                    );
-                    root.style.setProperty(
-                        '--timeline-item-border',
-                        'var(--main-bg-light)'
-                    );
-                }
-                print = !print;
-            }
-        </script>
+        
     </head>
     <body class="curriculum">
-        <div class="links">
-            <a class="back" href="/"> <i class="fas fa-chevron-left"></i> </a>
-            <a class="print" onclick="changeColor()">
-                <i class="fas fa-print"></i>
-            </a>
-        </div>
-
+        <script src="/assets/js/printable.js"></script>
+<div class="top-links">
+    <a class="back" href="/"> <i class="fas fa-chevron-left"></i> </a>
+    <a class="print" onclick="changeColor()"> <i class="fas fa-print"></i> </a>
+</div>
+ 
         
         <h1>ADRIAN PEREIRA GUERRA</h1>
         <!-- PERSONAL -->
@@ -395,9 +360,9 @@
 </div>
 
         <!-- LANGUAGES -->
-        
+        <!-- 
         <h2></h2>
-        
+         -->
         <!-- INTERESTS -->
         
         <h2>INTERESTS</h2>
