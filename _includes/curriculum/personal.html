@@ -4,20 +4,17 @@
     <ul>
         <li>
             <a href="{{ item.location_url }}" target="_blank" class="tooltip">
-                <span class="tooltip-text">{{ item.location }}</span>
                 <i class="fas fa-map-marker-alt"></i>
             </a>
         </li>
         <li>
             <a href="mailto: {{ item.email }}" class="tooltip">
-                <span class="tooltip-text">Send email</span>
                 <i class="fas fa-envelope"></i>
             </a>
         </li>
         {% for s in item.social %}
         <li>
             <a href="{{ s.link }}" target="_blank" class="tooltip">
-                <span class="tooltip-text">{{ s.name }}</span>
                 <i class="{{ s.icon }}"></i>
             </a>
         </li>
