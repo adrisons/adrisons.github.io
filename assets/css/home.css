@@ -9,13 +9,6 @@
     flex-direction: column;
 }
 
-.buttons {
-    position: relative;
-    float: left;
-    width: 100%;
-    height: 25vh;
-}
-
 /* =============================== */
 /* HEADER */
 /* =============================== */
@@ -28,46 +21,6 @@
     letter-spacing: 0.2em; /* Adjust as needed */
 }
 
-
-/* =============================== */
-/* BUTTONS */
-/* =============================== */
-
-.buttons ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: inherit;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.buttons ul li {
-    flex-grow: 1;
-    height: inherit;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--main-bg-light);
-}
-.buttons ul li a {
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    text-align: center;
-}
-
-.buttons ul li a label {
-    cursor: pointer;
-}
-.buttons ul li a:hover {
-    background-color: var(--main-bg-light);
-    color: var(--main-bg-dark);
+.buttons-list {
+    height: 25vh;
 }

@@ -1,1 +1,4 @@
 title: Projects
+list:
+    - name: 'Snake'
+      url: 'https://adrisons.github.io/snake/'

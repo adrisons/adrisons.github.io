@@ -18,8 +18,20 @@
         />
     </head>
     <body class="projects">
-        {% include top-links.html %} 
-        {% assign item = site.data.projects.projects %}
+        {% include top-links.html %} {% assign item =
+        site.data.projects.projects %}
         <h1>{{ item.title | upcase }}</h1>
+
+        <div class="buttons-list">
+            <ul>
+                {% for project in item.list %}
+                <li>
+                    <a href="{{ project.url }}">
+                        <label> {{ project.name }} </label>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </body>
 </html>
