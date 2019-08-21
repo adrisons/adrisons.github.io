@@ -2,3 +2,5 @@ title: Projects
 list:
     - name: 'Snake'
       url: 'https://adrisons.github.io/snake/'
+    - name: 'Tic-tac-toe'
+      url: 'https://adrisons.github.io/tic-tac-toe/'
