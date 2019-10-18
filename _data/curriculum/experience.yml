@@ -11,21 +11,21 @@
     of the good relationship with my team and of all the things I have learned here."
     list:
       - Ability to work autonomously
-      - Continuous training in Angular 
-      - Acquired responsibility
-      - Use Git with an agile workflow
-      - Improvement of my communication skills to integrate with other teams
-      - Start doing code review
+      - Keep updated on Angular 
+      - Use Git & git-flow 
+      - Agile workflow
+      - Improvement of social skills
+      - Code review
 
   technologies:
     title: Technologies used
     list:
       - Angular
-      - Javascript 
+      - Javascript
       - Typescript
       - Rxjs
       - HTML
-      - CSS 
+      - CSS
       - SASS
       - Git
       - Java
@@ -33,6 +33,7 @@
       - Hibernate
       - SQL
       - MongoDB
+      - Lombok
 
 - position_title: Parallel software engineer intern
   company_name: Appentra
