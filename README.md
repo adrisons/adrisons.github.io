@@ -14,3 +14,6 @@ bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
 On a browser go to: http://127.0.0.1:4000
+
+## My Visual Studio Code settings
+[vscode-settings](https://gist.github.com/adrisons/97d78e2d8631f517f4ff43bf8aa1a941)
