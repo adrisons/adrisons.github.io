@@ -1,4 +1,4 @@
 - name: Curriculum
   url: "/curriculum.html"
-- name: Projects
-  url: "/projects.html"
+##- name: Projects
+##  url: "/projects.html"
