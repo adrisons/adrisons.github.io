@@ -1,21 +1,60 @@
+- position_title: Frontend engineer
+  company_name: Nomasystems
+  company_url: http://www.nomasystems.es/
+  time: 2020 Jan - Now
+  description: "
+  Nomasystems is a software engineering company specialized in the development of highly demanding mobile applications with millions of active users.
+  They place a lot of importance on quality, reliability, design and user experience.
+
+  This company was a big change for me. They trust and value the worker, they expect a result and they don't care how you get it. 
+  This has made me place a lot more importance on goals and performance.
+  "
+  achievements:
+    title: Achievements
+    description: "
+    I have made a small leap in my professional career. In addition to doing the development, I have had to: speak with clients, define functionalities and objectives, make technical decisions such as the architecture and technology of the front end, integrate and communicate with other teams, manage uncertainty and deadlines.
+
+    I feel like I have gained responsibility by always seeking to have a product as soon as possible in production to continue iterating.
+    "
+    list:
+      - Make a project from scratch and take it to the production of a large company.
+      - Transform customer requirements into a functional product.
+      - Handle the state of a strongly concurrent and asynchronous data application.
+      - Integrate testing and do TDD from the beginning.
+
+  technologies:
+    title: Technologies used
+    list:
+      - Angular
+      - Javascript
+      - Typescript
+      - Jest 
+      - Jasmine
+      - Rxjs
+      - HTML
+      - CSS / SASS
+      - Git
+      - XMPP
+
+
 - position_title: Fullstack web developer
   company_name: Imatia
   company_url: https://www.imatia.com/
-  time: 2016 Apr - now
-  description: "Imatia is a consulting company. My labor is to develop software to help customer service 
-  of a large retail company. My team and I have built several applications using different versions of
-  the Angular framework, following an agile philosophy and an architecture based on microservices."
+  time: 2016 Apr - 2019 Dec
+  description: "
+  Imatia is a consulting company. My job was to develop software to help the customer service area of a large retail company, 
+  improve worker efficiency and unify customer service with e-commerce data and processes.
+  My team and I built several web applications using the Angular framework, following an agile philosophy and an architecture based on microservices.
+  "
   achievements:
     title: Achievements
     description: "I am very proud of how I have grown personally and professionally in this company, 
-    of the good relationship with my team and of all the things I have learned here."
+    of the good relationship with my team and of all the things I have learned."
     list:
-      - Ability to work autonomously
-      - Keep updated on Angular 
-      - Use Git & git-flow 
-      - Agile workflow
-      - Improvement of social skills
-      - Code review
+      - Ability to work autonomously.
+      - Working for a very big client, with thousands of users worldwide.
+      - Solid understanding in web and server concepts.
+      - Improvement of soft skills.
 
   technologies:
     title: Technologies used
