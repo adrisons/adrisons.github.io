@@ -7,6 +7,10 @@ It is created using GitHub Pages and [Jekyll](https://jekyllrb.com/).
 
 Whenever I commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in this site, from the content in the Markdown files.
 
+## Install
+
+See [Jekyll official page](https://jekyllrb.com/docs/installation/macos/#rbenv).
+
 ## Run
 On a terminal type:
 ```bash

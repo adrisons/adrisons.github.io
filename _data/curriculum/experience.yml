@@ -20,7 +20,7 @@
       - Make a project from scratch and take it to the production of a large company.
       - Transform customer requirements into a functional product.
       - Handle the state of a strongly concurrent and asynchronous data application.
-      - Integrate testing and do TDD from the beginning.
+      - Integrate testing and TDD from the beginning.
 
   technologies:
     title: Technologies used
